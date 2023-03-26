@@ -71,3 +71,29 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](LICENSE).
+
+## Instalation ====================
+
+## Phase 1
+1. nest new nest-todo
+2. npm i dotenv
+3. npm i @nestjs/typeorm typeorm mysql
+
+## Phase 2
+1. touch .env
+2. mkdir src/shared && mkdir src/shared/services
+3. touch src/shared/services/database-connection.service.ts
+
+## Phase 3
+1. Edit env
+2. Edit database-connection.service.ts
+3. Import typeORM app.module.ts
+
+## Phase 4
+1. nest g module todo
+2. nest g service todo
+3. nest g controller todo
+
+## Phase 5
+1. npm i @nestjsx/crud class-transformer class-validator
+2. npm i @nestjsx/crud-typeorm
